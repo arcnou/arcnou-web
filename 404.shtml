@@ -7,19 +7,17 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<!-- TITLE -->
-		<title>Arc Nou</title>
+		<title>Arc Nou - 404</title>
 		<!-- DESCRIPTION -->
 		<meta name="author" content=" " />
 		<meta name="description" content="" />
 		<meta name="keywords"  content="" />
 		<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-		
 		<!-- STYLESHEETS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-		<link href="assets/css/venobox.css" rel="stylesheet"/>
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 		<link href="assets/css/responsive.css" rel="stylesheet" type="text/css"/>
 		<link href="assets/css/animsition.min.css" rel="stylesheet"/>
@@ -29,8 +27,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
-	
-	<body onload="initialize()" class="animsition">
+	<body class="animsition">
 	
 	<!-- PRELODER -->
 	<div class="preloader">
@@ -43,7 +40,7 @@
 			<div id="header">
 				<div class="width">
 					<div class="left">
-						<a href="index.html" class="logo blink" title="arc-nou"></a>
+						<a href="index.html" class="logo blink" title="Arc-nou"></a>
 					</div>
                     <div class="center">
 					<h2 class="intro-text-head h2-48 masonry-intro-sec align-center"><strong>Arc Nou</strong></h2>
@@ -74,80 +71,63 @@
 		</section>
 		<!-- /HEADER -->
 		
-		<!-- LANDING BACKROUND -->
-		<section class="contact-detail-sec"></section>
-		<!-- /LANDING BACKROUND -->
-				
 		<!-- LANDING SECTION -->
-		<section  class="contact-sec">
-			<div class="col-lg-8 col-md-10 col-sm-10 col-xs-10 align-center align-left into-text-pos">
+		<section>
+			<div class="col-lg-8 col-md-10 col-sm-10 col-xs-12 align-center landing-proj">
 				<div class="col-lg-12 col-md-11 col-sm-12 col-xs-12">
-					<div class="col-lg-4 align-left no-padding">
-						<h1 class="about-intro-head h1-72">Contactanos</h1>
+					<div class="col-lg-2 align-left project-title">
+					  <h3 class="h3-30 wow fadeInUp" data-wow-delay="0.35s">¡ERROR 404!</h3>
 					</div>
-					<!--<div class="hr-seperator about-hr-seperator"></div>-->
-					<div class="col-lg-12 about-intro no-padding">
-					  <p class="p-24">Envía tu mensaje completando el formulario, te responderemos lo más pronto posible. Gracias.
+					<div class="col-lg-8"> 
+					  <p class="project-intro source-font align-left p-22 wow fadeInUp" data-wow-delay="0.35s">La página solicitada no existe o se ha borrado.
 </p>
+					  
+						
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- /LANDING SECTION -->
 		
-		<!--CONTACT-MAIN-->
-		<section class="contacts">
-			<div class="col-lg-8 col-md-10 col-sm-10 col-xs-10 align-center">
-				<form method="post" id="cont_form" class="contact-form">
-					<div class="contact-group">
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<input type="text" placeholder="First Name *" size="40" value=""  name="name">
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<input type="email" placeholder="Email *" size="40" value=""  name="email">
-						</div>
-					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<textarea placeholder="Message *"  rows="10" cols="40" name="message"></textarea>
-					</div>
-					<div class="clearfix"></div>
-					<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
-						<button class="submit_button btn-effect submit_btn  source-font col-lg-4 col-md-4 col-sm-4 col-xs-12 align-center send-message" id="submit_btn" type="submit" value="Submit">ENVIAR</button>
-					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div id="result"></div>
-					</div>
-				</form>
+		<!-- PROJECT IMAGE SEC-->
+		<section class="project-img-sec">
+			<!-- PROJECT FIRST IMAGE -->
+			<div class="align-center">
+				<img src="assets/img/single-project/404-02.jpg" alt="leka"/>
 			</div>
+			<!-- /PROJECT FIRST IMAGE -->
+			
+			
 		</section>
-		<!--CONTACT-MAIN-->
-		
-		<!-- GOOGLE MAP -->
-		<div id="map_canvas" style="width:100%;"></div>
-		<!-- GOOGLE MAP -->
+		<!-- PROJECT IMAGE SEC-->
 		
 		<!-- FOOTER SECTION -->
 		<footer>
-			<div class="col-lg-8 align-left align-left address">
+		
+	
+		<div class="col-lg-8 align-left align-left address">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-			  <p class="p-22">Poble Nou. 08005</p>
+<p class="p-22">Poble Nou. 08005</p>
 			  <p class="p-22">Barcelona, Spain</p>
+			 
 		  </div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-			  <p class="p-22"><a href="callto:0918884747">(+34) 663140989</a></p>
+			  <p class="p-22"><a href="callto:+34663140989">(+34) 663140989</a></p>
 			  <p class="p-22"><a href="mailto:info@arcnou.com">info@arcnou.com</a></p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <p class="p-22">&copy; 2015 Arc Nou. <br>
-All Rights Reserved. </p></div>	</div>
-            <div class="footer-right">
+All Rights Reserved. </p></div>	
+		</div>
+        <div class="footer-right">
 			  <p class="p-22"><a href="https://www.facebook.com/pages/Arc-Nou/277084182490131?fref=ts">Facebook</a></p>
 			  <p class="p-22"><a href="https://www.behance.net/arc9">Behance</a></p>
 			</div>
-		
-	
-		</footer>
+		<div class="back-top">
+		</div>
+	</footer>
 		<!-- /FOOTER SECTION -->
+		
 		<!-- JAVASCRIPTS -->
 		<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery-ui-1.10.4.min.js"></script>
@@ -157,18 +137,6 @@ All Rights Reserved. </p></div>	</div>
 		<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
 		<script type="text/javascript" src="assets/js/init.js"></script>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-		<script type="text/javascript" src="assets/js/contact-init.js"></script>
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-67055870-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+		
 	</body>
 </html>
-
