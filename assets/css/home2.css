@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*****************************************************/
+/* Home2 Css */
+/*****************************************************/
+.spirit {
+    background: url("../img/home2/02-blue.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+#resizable {
+    background: url("../img/home2/01-hearts.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    border: medium none;
+    height: 100%;
+    width: 50%;
+}
+.ui-resizable {
+    position: relative;
+}
+
+#handle {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    left: 100%;
+    margin: 0 auto 0 -59.6px;
+    position: absolute;
+    right: 0;
+    top: 43.8%;
+    width: 120px;
+}
+.ui-resizable-e {
+    cursor: e-resize;
+    display: block;
+    right: -45px;
+    top: 70%;
+}
+.ui-resizable-e img {
+	left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 46px;
+}	
+	
+.ui-resizable-handle {
+    display: block;
+    font-size: 0.1px;
+    position: absolute;
+}
+.masonry-layout {
+	padding-top: 10%;
+}
+.masonry-layout .mega-hover {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    border-radius: 0;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.2s ease-out 0s;
+    width: 100%;
+}
+.masonry-layout .mega-hover:hover {
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+.masonry-layout .mega-hover:hover .mega-hovertitle {
+    bottom: 47%;
+    transition-delay: 0.1s;
+}
+.masonry-layout .mega-hovertitle {
+    bottom: 47%;
+    color: #000;
+    font-family: "Source Sans pro",sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    left: 20%;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+	text-transform:capitalize;
+}
+
+.single-project{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 1042px) {
+#resizable {
+    width: 100%;
+	min-height:600px;
+}
+#handle {
+	display:none!important;
+}
+#resizable {
+    background-attachment: scroll;
+ 
+}
+.spirit {
+	background-attachment: scroll;
+}
+}
+@media only screen and (max-width: 414px) {
+#resizable {
+    min-height:400px;
+}
+}
