@@ -1,0 +1,243 @@
+@charset "utf-8";
+/*****************************************************/
+/* Home4 Css */
+/*****************************************************/
+.slider-wraper .h2-48 {
+	 padding-bottom: 3%;
+}
+
+.into-text-pos-slider .btn-effect {
+	 margin-top: 9%;
+	  padding: 6px 0;
+}
+.slider-wraper .btn-effect:hover:after, .slider-wraper.btn-effect:active:after {
+    background: none repeat scroll 0 0 transparent;
+    height: 100%;
+}
+.slider-wraper .btn-effect:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.125em;
+    padding: 6px 0;
+}
+.slider-wraper .readmore {
+    color: #fff;
+    width: 157px;
+}
+
+/*****************************************************/
+/* HTML5 video CSS */
+/*****************************************************/
+video {
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.youtube-parent {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index:1;
+	margin-bottom:5%;
+	opacity: 0.5;
+}
+.youtube-text {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #40d3da), color-stop(0.45, #7370d9), color-stop(1, #ab00da) );
+	background-image: -o-linear-gradient(top, #40d3da 0%, #7370d9 45%, #ab00da 100%);
+	background-image: -moz-linear-gradient(top, #40d3da 0%, #7370d9 45%, #ab00da 100%);
+	background-image: -webkit-linear-gradient(top, #40d3da 0%, #7370d9 45%, #ab00da 100%);
+	background-image: -ms-linear-gradient(top, #40d3da 0%, #7370d9 45%, #ab00da 100%);
+	background-image: linear-gradient(to top, #40d3da 0%, #7370d9 45%, #ab00da 100%);
+	opacity:1;
+}
+
+.youtube-hr{
+	background:#fff!important;
+}
+h1.youtube-intro{
+	color:#fff;
+}
+.youtube-icon a svg{
+	fill:#fff!important;
+}	
+.back-img1 {
+	background:url('../img/home4/1.jpg') no-repeat;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+	top:0;
+}
+.back-img3 {
+	background:url("../img/home4/3.jpg") no-repeat;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+	top:0;
+}
+/*****Fallback Image For HTML5 Video & Youtube Video*****/
+.fallback-img-html5 {
+	display:none;
+	background:url("../img/home4/3.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+	top:0;
+	z-index:-1;
+}
+.fallback-img-youtube {
+	display:none;
+	background:url("../img/home4/1.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+	top:0;
+	z-index:-1;
+}
+/*******************IE CSS**********************/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.back-img1 {
+	background-attachment: scroll;
+}
+.back-img3 {
+	background-attachment: scroll;
+}
+}
+.youtube {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+.back-img1 {
+	background-attachment: scroll;
+}
+.back-img3 {
+	background-attachment: scroll;
+}
+	
+	.carousel-control.left-arrow, .carousel-control.right-arrow {
+		border: 1px solid #a48c3f;
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-right span:before {
+		top: -5px;
+		transform: translateY(0px) rotate(45deg);
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-right span:after {
+		top: 5px;
+		transform: translateY(0px) rotate(-45deg);
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-right span:before:hover {
+		top: -5px;
+		transform: translateY(0px) rotate(45deg);
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-right span:after:hover {
+		top: 5px;
+		transform: translateY(0px) rotate(-45deg);
+	}
+	.trigger-footer-arrow span {
+		margin-left: -7px;
+		width: 14px;
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-left span:after {
+		top: 5px;
+		transform: translateY(0px) rotate(45deg);
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-left span:before {
+		top: -5px;
+		transform: translateY(0px) rotate(-45deg);
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-right span:after:hover {
+		top: 5px;
+		transform: translateY(0px) rotate(-45deg);
+	}
+	.trigger-footer-arrow.trigger-footer-arrow-left span:before:hover{
+		top: -5px;
+		transform: translateY(0px) rotate(-45deg);
+	}
+
+}
+@media only screen and (max-width: 768px) {
+.into-text-pos-slider {
+	padding-top: 21%;
+}
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-left.left.carousel-control.left-arrow {
+			left:42%;
+			top:17%;
+			position:absolute;
+		}
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-right.right.carousel-control.left-arrow {
+	right:42%;
+	top:17%;
+	position:absolute;
+}
+	.into-text-pos-slider {
+	padding-top: 25%;
+}
+}
+@media only screen and (max-width: 667px) {
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-left.left.carousel-control.left-arrow {
+			left:40%;
+		}
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-right.right.carousel-control.left-arrow {
+	right:40%;
+	}
+
+}
+@media only screen and (max-width: 600px) {
+	.into-text-pos-slider {
+	padding-top: 30%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.into-text-pos-slider {
+	padding-top: 45%;
+}
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-left.left.carousel-control.left-arrow {
+	left:35%;
+	}
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-right.right.carousel-control.left-arrow {
+	right:35%;
+	}
+.slider-wraper .h2-48 {
+	padding-bottom: 13%;
+}
+.into-text-pos-slider .btn-effect {
+    margin-top: 15%;
+}
+}
+@media only screen and (max-width: 320px) {
+	.into-text-pos-slider {
+	padding-top: 50%;
+}
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-left.left.carousel-control.left-arrow {
+	left:32%;
+	}
+.trigger-footer.trigger-footer-arrow.trigger-footer-arrow-right.right.carousel-control.left-arrow {
+	right:32%;
+	}
+}
+}

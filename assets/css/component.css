@@ -1,0 +1,53 @@
+
+.la-anim-12::before {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	color:#a48c3f;
+	content: attr(data-content);
+	text-align: left;
+	white-space: nowrap;
+	height: 100%;
+}
+
+.la-anim-12.la-animate::before {
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: width 5s linear, opacity 5s 0s;
+	transition: width 5s linear, opacity 5s 0s;
+	
+}
+/*****************************************************/
+/* Preloader Effect */
+/*****************************************************/
+.header-hide{
+	opacity:0;
+}
+
+#preloader {
+    background: none repeat scroll 0 0 #fff;
+    display: table;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+	overflow:hidden;
+}
+.preloading{
+	height:100%;
+	width:100%;
+}
+.loader {
+    display: table-cell;
+    vertical-align: middle;
+	letter-spacing:-5px;
+	color:#E8E8E8;
+	padding-bottom:0;
+	
+}
+
+
+.preloading .loader {
+    opacity: 1;
+}
+	

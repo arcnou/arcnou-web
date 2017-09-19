@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*****************************************************/
+/* Responsive Filter CSS */
+/*****************************************************/
+@media (min-width: 981px) and (max-width: 996px) 
+{
+ 
+}
+@media (min-width: 1100px) and (max-width: 2000px) 
+{
+}
+@media (min-width: 1600px) and (max-width: 5000px) 
+{
+	#columns {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+}
+@media (min-width: 1100px) and (max-width: 1580px) 
+{ 
+}
+@media (min-width: 1024px) and (max-width: 1280px) 
+{
+ 
+}
+@media (min-width: 1024px) and (max-width: 2000px) 
+{
+	
+}
+@media (max-width: 800px) 
+{
+}
+@media (min-width: 900px) and (max-width: 1169px) 
+{
+ #masonry-basic .container{ width:100%}
+ #standard-grid .container { width:100%;}
+ #masonry-basic{ width:100%; overflow:hidden !important;}
+}
+
+@media (min-width: 950px) and (max-width: 990px) 
+{
+ 
+} 
+@media (max-width: 1060px) 
+{
+	 #masonry-basic .container{ width:100%}
+	 #standard-grid .container { width:100%;}
+	 #standard-grid { overflow:hidden;}
+	 #masonry-basic{ width:100%; overflow:hidden !important;}
+}
+@media only screen and (max-width: 980px)
+{ 
+ #masonry-basic .col-md-12 .col-sm-12{ padding:inherit !important;}
+ 
+}   
+@media (min-width: 768px) and (max-width: 979px) 
+{
+ 
+}
+@media (max-width: 767px) 
+{
+#home-contain  .details-block .hidden-box h1{ font-size:22px;}
+.masonry-basic { margin:10px 0;}
+ 
+ #masonry-basic { width:100%; float:left; overflow:hidden !important;}
+ 
+}  
+@media (max-width: 568px) 
+
+{
+
+}
+@media (min-width: 580px) and (max-width: 650px)
+{
+ 
+}
+@media (min-width: 480px) and (max-width:560px)
+{
+ 
+
+}
+@media (min-width: 400px) and (max-width: 550px)
+{
+ 
+}
+@media (max-width: 480px) 
+{
+ .select-style-price { width:100%; float:left; margin:10px 0 0 0;}
+ 
+} 
+@media (max-width: 390px) 
+{
+ 
+} 
+ 
+
